@@ -430,7 +430,7 @@ header {
 .top-bar {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 15px 40px;
+    padding: 2px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -442,20 +442,20 @@ header {
 }
 
 .header-logo {
-    height: 180px;
+    height: 150px;
     width: auto;
 }
 
 .menu {
     display: flex;
-    gap: 35px;
+    gap: 25px;
 }
 
 .menu a {
     text-decoration: none;
     color: #ffffff;
     font-weight: 500;
-    font-size: 1.05em;
+    font-size: 1em;
     transition: color 0.3s ease;
     position: relative;
 }
@@ -489,7 +489,7 @@ header {
     text-decoration: none;
     color: #ffffff;
     font-weight: 500;
-    font-size: 0.95em;
+    font-size: 0.9em;
     transition: color 0.3s ease;
     cursor: pointer;
 }
@@ -1059,7 +1059,7 @@ footer {
     }
 
     .menu a {
-        padding: 15px 40px;
+        padding: 12px 40px;
         font-size: 1.1em;
         border-bottom: 1px solid rgba(232, 162, 77, 0.2);
         display: block;
@@ -1080,7 +1080,7 @@ footer {
 
     .dropdown .dropbtn {
         width: 100%;
-        padding: 15px 40px;
+        padding: 12px 40px;
         display: block;
         text-align: left;
         border-bottom: 1px solid rgba(232, 162, 77, 0.2);
